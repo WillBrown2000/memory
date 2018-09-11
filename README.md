@@ -7,7 +7,9 @@
 
 ## Instructions
 
-Clone the following repo:
+- Clone the following repo: https://www.github.com/WillBrown2000/memory.git
+- Load the html.index file in your browser
+- Play!
 
 ## Contributing
 
