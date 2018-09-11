@@ -17,69 +17,43 @@
 
         <section class="score-panel">
         	<ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star gold"></i></li>
+        		<li><i class="fa fa-star gold"></i></li>
+        		<li><i class="fa fa-star gold"></i></li>
         	</ul>
 
-        	<span class="moves">3</span> Moves
+        	<span class="moves">0</span> Moves
+          <span class="timer">0</span> Seconds Elapsed
 
             <div class="restart">
         		<i class="fa fa-repeat"></i>
-        	</div>
+        	  </div>
         </section>
 
-        <ul class="deck">
-            <li class="card">
-                <i class="fa fa-diamond"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-paper-plane-o"></i>
-            </li>
-            <li class="card match">
-                <i class="fa fa-anchor"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-bolt"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-cube"></i>
-            </li>
-            <li class="card match">
-                <i class="fa fa-anchor"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-leaf"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-bicycle"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-diamond"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-bomb"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-leaf"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-bomb"></i>
-            </li>
-            <li class="card open show">
-                <i class="fa fa-bolt"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-bicycle"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-paper-plane-o"></i>
-            </li>
-            <li class="card">
-                <i class="fa fa-cube"></i>
-            </li>
+        <ul id='board' class="deck">
+            <!--insert list here -->
         </ul>
+        <!--Modal-->
+        <div id='modal' class='modal'>
+          <div class='modal-content'>
+            <div> Congrats, You Won! </div>
+            Seconds Elapsed: <div id='elapsed-time'></div>
+            <section class="score-panel-end">
+              <div id='star-rating'> Star Rating:
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              <div>
+            </section>
+            <div class="restart"> Play Again?
+            <i class="fa fa-repeat"></i>
+            </div>
+          </div>
+        <div>
     </div>
+
 
     <script src="js/app.js"></script>
 </body>
